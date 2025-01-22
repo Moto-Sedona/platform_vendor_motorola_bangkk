@@ -19,6 +19,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/bangkk/proprietary/system/etc/permissions/com.motorola.frameworks.core.addon.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.frameworks.core.addon.xml \
     vendor/motorola/bangkk/proprietary/system/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.motosignature.xml \
     vendor/motorola/bangkk/proprietary/system/etc/permissions/moto-core_services.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-core_services.xml \
+    vendor/motorola/bangkk/proprietary/system/framework/com.motorola.frameworks.core.addon.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.motorola.frameworks.core.addon.jar \
+    vendor/motorola/bangkk/proprietary/system/framework/com.motorola.motosignature.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.motorola.motosignature.jar \
+    vendor/motorola/bangkk/proprietary/system/framework/moto-core_services.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/moto-core_services.jar \
     vendor/motorola/bangkk/proprietary/system/lib/motorola.hardware.camera.imgtuner@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/motorola.hardware.camera.imgtuner@1.0.so \
     vendor/motorola/bangkk/proprietary/system_ext/lib64/libhidltransport.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libhidltransport.so \
     vendor/motorola/bangkk/proprietary/system_ext/lib64/libhwbinder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libhwbinder.so \
@@ -35,6 +38,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/bangkk/proprietary/system_ext/etc/public.libraries-motocameradesktop.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/public.libraries-motocameradesktop.txt \
     vendor/motorola/bangkk/proprietary/system_ext/etc/public.libraries-motoimagetuner.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/public.libraries-motoimagetuner.txt \
     vendor/motorola/bangkk/proprietary/system_ext/etc/sysconfig/hiddenapi-whitelist-com.motorola.motcameradesktop.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.motcameradesktop.xml \
+    vendor/motorola/bangkk/proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/com.android.hotwordenrollment.common.util.jar \
+    vendor/motorola/bangkk/proprietary/system_ext/framework/com.motorola.hardware.camera.desktop.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/com.motorola.hardware.camera.desktop.jar \
+    vendor/motorola/bangkk/proprietary/system_ext/framework/com.motorola.imager.u.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/com.motorola.imager.u.jar \
+    vendor/motorola/bangkk/proprietary/system_ext/framework/com.motorola.libimgTuner.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/com.motorola.libimgTuner.jar \
     vendor/motorola/bangkk/proprietary/system_ext/lib/libarcsoft_calibverify_TriCamera.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libarcsoft_calibverify_TriCamera.so \
     vendor/motorola/bangkk/proprietary/system_ext/lib/libarcsoft_tricam_calibration.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libarcsoft_tricam_calibration.so \
     vendor/motorola/bangkk/proprietary/system_ext/lib/libarcsoft_tricam_verification.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libarcsoft_tricam_verification.so \
@@ -614,11 +621,4 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     MotCamera3AI \
     ImagerTuning-U \
-    MotCamera4 \
-    com.motorola.frameworks.core.addon \
-    com.motorola.motosignature \
-    moto-core_services \
-    com.android.hotwordenrollment.common.util \
-    com.motorola.hardware.camera.desktop \
-    com.motorola.imager.u \
-    com.motorola.libimgTuner
+    MotCamera4

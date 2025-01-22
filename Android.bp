@@ -11,8 +11,8 @@ android_app_import {
 	name: "MotoSignature2App",
 	owner: "motorola",
 	apk: "proprietary/system/app/MotoSignature2App/MotoSignature2App.apk",
-	preprocessed: true,
 	presigned: true,
+	preprocessed: true,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -22,8 +22,8 @@ android_app_import {
 	name: "MotoSignatureApp",
 	owner: "motorola",
 	apk: "proprietary/system/app/MotoSignatureApp/MotoSignatureApp.apk",
-	preprocessed: true,
 	presigned: true,
+	preprocessed: true,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -57,8 +57,8 @@ android_app_import {
 	name: "MotCamera3AI",
 	owner: "motorola",
 	apk: "proprietary/system_ext/app/MotCamera3AI/MotCamera3AI.apk",
-	preprocessed: true,
 	presigned: true,
+	preprocessed: true,
 	overrides: ["Aperture"],
 	dex_preopt: {
 		enabled: false,
@@ -70,8 +70,8 @@ android_app_import {
 	name: "ImagerTuning-U",
 	owner: "motorola",
 	apk: "proprietary/system_ext/priv-app/ImagerTuning-U/ImagerTuning-U.apk",
-	preprocessed: true,
 	presigned: true,
+	preprocessed: true,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -83,58 +83,12 @@ android_app_import {
 	name: "MotCamera4",
 	owner: "motorola",
 	apk: "proprietary/system_ext/priv-app/MotCamera4/MotCamera4.apk",
-	preprocessed: true,
 	presigned: true,
+	preprocessed: true,
 	dex_preopt: {
 		enabled: false,
 	},
 	privileged: true,
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "com.motorola.frameworks.core.addon",
-	owner: "motorola",
-	jars: ["proprietary/system/framework/com.motorola.frameworks.core.addon.jar"],
-}
-
-dex_import {
-	name: "com.motorola.motosignature",
-	owner: "motorola",
-	jars: ["proprietary/system/framework/com.motorola.motosignature.jar"],
-}
-
-dex_import {
-	name: "moto-core_services",
-	owner: "motorola",
-	jars: ["proprietary/system/framework/moto-core_services.jar"],
-}
-
-dex_import {
-	name: "com.android.hotwordenrollment.common.util",
-	owner: "motorola",
-	jars: ["proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "com.motorola.hardware.camera.desktop",
-	owner: "motorola",
-	jars: ["proprietary/system_ext/framework/com.motorola.hardware.camera.desktop.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "com.motorola.imager.u",
-	owner: "motorola",
-	jars: ["proprietary/system_ext/framework/com.motorola.imager.u.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "com.motorola.libimgTuner",
-	owner: "motorola",
-	jars: ["proprietary/system_ext/framework/com.motorola.libimgTuner.jar"],
 	system_ext_specific: true,
 }
 
